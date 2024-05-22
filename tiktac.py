@@ -1,11 +1,6 @@
-import tkinter as tk
-from itertools import cycle
-from tkinter import font
-from typing import NamedTuple
-
 class Player(NamedTuple):
     label: str
-    color: str
+    colour: str
 
 class Move(NamedTuple):
     row: int
